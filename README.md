@@ -2,7 +2,10 @@
 
 ## What is this project about? 
 
-This small library allows setting values in a json with jsonpath and also fill missing properties in the path.
+This small library allows setting values in a json with jsonpath and also fill missing properties in the path avoiding throwing the:
+```
+com.jayway.jsonpath.PathNotFoundException.
+``` 
 
 ## Detailed problem description
 Json path is able to set values to json objects when the properties are filled e.g: we have following json:
